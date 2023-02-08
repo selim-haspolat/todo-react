@@ -13,7 +13,7 @@ const Form = ({setTask,setDate,addTask}) => {
 
 
   return (
-    <div>
+    <div className="col-12 col-md-6">
       <form onSubmit={submit}>
         <div className="row mb-3">
           <label htmlFor="inputEmail3" className="col-sm-2 col-form-label">

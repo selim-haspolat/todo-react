@@ -1,10 +1,9 @@
-import { computeHeadingLevel } from '@testing-library/react'
 import React from 'react'
 
 
 const Header = () => {
   return (
-    <div>
+    <div className='mb-5'>
         <h1 className='text-danger bg-info'>
             Selim ToDo List
         </h1>
